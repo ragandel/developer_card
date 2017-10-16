@@ -1,0 +1,124 @@
+.body{
+        background-color: #f0f0f0;
+        width: 1000px;
+}
+.container{
+        width: 660px;
+        background: white;
+        margin:auto;
+
+}
+.lines{
+        <!--разделительная линия-->
+        height: 2px;
+        background-color: #f0f0f0;
+}
+.summary{
+        height: 250px;
+}
+.skills{
+        font-style: normal;
+        font-family: sans-serif;
+}
+.table_skills{
+        width: 95%;
+        margin-left: 20px;
+        border-collapse: separate;
+        border-spacing: 0px 31px;
+}
+.foto{
+        width:180px;
+        height: 100%;
+        float:left;
+        display: inline-block;
+}
+.infoAssociate{
+        width: 460px;
+        height: 100%;
+        display: inline-block;
+}
+.approv{
+        margin-left: 288px;
+        margin-top: -185px;
+}
+.round{
+        border-radius: 62px;
+        position: relative;
+        margin-left:20px;
+        margin-top:30px;
+}
+
+hr{
+        border: none;
+        height: 2px;
+        color: red;
+        background-color: #333333;
+
+}
+p{
+          margin-bottom: 0.5em;
+          font-size: 14px;
+          margin-top: 29px;
+          color: #666666;
+}
+
+td{
+        text-align: left;
+        color: #8b8b8a;
+        width: 20%;
+}
+label {
+         width: 32px; /* Ширина рисунка */
+         height: 26px; /* Высота рисунка */
+         position: relative; /* Относительное позиционирование */
+}
+
+input[type="checkbox"] + span {
+         position: absolute; /* Абсолютное позиционирование */
+         left: 0; top: 0;
+         width: 100%;
+         height: 107%;
+         background: url(img/sprite_2.png) no-repeat; /* Фоновый рисунок */
+         cursor: pointer; /* Курсор в виде руки */
+}
+
+input[type="checkbox"]:checked + span  	{
+         background-position: 0 -20px;
+}
+
+.level_graf{
+        width: 342px;
+        height: 53%;
+        float: left;
+        display: inline-block;
+        margin-top: 59px;
+}
+
+.level_number{
+        width: 318px;
+        height: 53%;
+        display: inline-block;
+        margin-top: 59px;
+}
+
+.level_graf_img{
+        margin-left:20px;
+}
+
+h3{
+        margin: auto;
+}
+
+
+.arrow{
+        margin-left: 95px;
+        margin-top: -38px;
+        transform: rotate(0deg);
+        transform-origin: 60% 50%;
+}
+
+h1{
+        color: #0093d7;
+        font-size: 65px;
+        margin: auto;
+}
